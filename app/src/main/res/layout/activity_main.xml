@@ -45,7 +45,7 @@
         android:layout_marginBottom="10dp"
         android:background="@color/colorTextIcons"
         android:hint="Enter a Hotel zip code"
-        android:inputType="phone"
+        android:inputType="textPersonName|text"
         android:padding="5dp" />
 
 </RelativeLayout>
