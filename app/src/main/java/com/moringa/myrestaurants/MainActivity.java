@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String location = mLocationEditText.getText().toString();
 
-                Toast.makeText(MainActivity.this,location,Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this,RestaurantsActivity.class);
                 intent.putExtra("location",location);
                 startActivity(intent);
